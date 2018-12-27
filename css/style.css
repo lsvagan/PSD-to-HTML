@@ -1,0 +1,1005 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Open Sans', sans-serif;
+   list-style-type: none;
+}
+
+.banner{
+   position: relative;
+   color: rgb(220, 220, 221);
+   margin-bottom: 60px;
+}
+
+#banner{
+   max-width: 100%;
+   height: auto;
+}
+
+header{
+   width: 1170px;
+   height: 35px;
+   line-height: 35px;
+   margin-top: 30px;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: 0 auto;
+   margin-top: 30px;
+}
+
+nav{
+   float: right;
+}
+
+nav ul li { 
+   display: inline-block;
+   margin-left: 75px;
+}
+
+nav ul li a{
+   text-decoration: none;
+   font-size: 18px;
+   color: rgb(220, 220, 221);
+}
+
+.bannertext{
+   text-transform: uppercase;
+   text-align: center;
+   width: 1190px;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   /*border: 1px solid black;*/
+}
+
+.bannertext p{
+   font-size: 30px;
+   letter-spacing: 12px;
+   font-weight: lighter;
+}
+
+.bannertext h1{
+   width: 100%;
+   font-size: 60px;
+   font-family: 'Lato', sans-serif;
+   margin: 30px 0;
+}
+
+p.par{
+   font-size: 30px;
+   letter-spacing: 0px;
+   font-weight: lighter;
+}
+
+button{
+   background-color: Transparent;
+   background-repeat:no-repeat;
+   width: 195px;
+   height: 55px;
+   border: 2px solid white;
+   margin-top: 40px;
+   font-family: 'Lato', sans-serif;
+   font-size: 18px;
+   color: rgb(220, 220, 221);
+   text-transform: uppercase;
+   cursor:pointer;
+   outline:none;
+}
+
+ /*-------------------latest products-----------------*/
+
+ .wrapp{
+    width: 1170px;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+ }
+ .collections img{
+    max-width: 100%;
+    height: auto;
+    vertical-align:top;
+ }
+
+.collections ul li{  
+   display: inline-block;
+   text-align: center;
+}
+
+.collections ul{
+   margin-top: 60px;
+   display: flex; /*remove white space between <li> item*/
+}
+
+.latestproduct ul{
+   width: 100%;
+}
+
+.latestproduct li{
+   width: 32%;
+}
+
+.latestproduct li:nth-child(2) {
+   margin: 0 2%;
+}
+
+.frame{
+   width: 90%;
+   height: 90%;
+   border: 1px solid rgb(255, 255, 255);
+   position: absolute;
+   top:50%;
+   bottom: 0;
+   left: 50%;
+   right: 0;
+   transform: translate(-50%, -50%);
+}
+
+.hover{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top:0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: rgba(34, 37, 51, 0.6);
+}
+
+.line{
+   width: 115px;
+   border: 2px solid rgb(220, 0, 0);
+   margin: 0 auto;
+}
+
+.linetext{
+   text-align: center;
+   height: 90px;
+   line-height: 90px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 40px;
+   font-style: italic;
+   font-weight: normal;
+}
+
+.collections ul li{
+   position: relative;
+} 
+
+.centered{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-family: 'Open Sans', sans-serif;
+   font-size: 40px;
+   font-style: italic;
+   font-weight: normal;
+   color: rgb(220, 220, 221);
+}
+
+ul.sale{
+   margin: 30px 0 120px 0;
+   width: 100%;
+}
+.sale li{
+   width: 49%
+}
+ul.sale li:first-child{
+   margin-right: 2%;
+}
+
+.sale .centered{
+   font-family: 'Lato', sans-serif;
+   font-style: normal;
+   font-size: 45px;
+   width: 100%;
+}
+
+.sale .centered:after{
+   content: "";
+   display: block;
+   width: 190px;
+   margin: 0 auto;
+   margin-top: 20px;
+   border-bottom: 2px solid white;
+}
+
+.sale .centered:before{
+   content: "";
+   display: block;
+   width: 190px;
+   margin: 0 auto;
+   margin-bottom: 20px;
+   border-bottom: 2px solid white;
+}
+ 
+/*------------------trending items-------------------*/
+
+.trendingitems{
+   margin: 60px 0 120px 0;
+   width: 100%;
+}
+
+.trendingitems img{
+   max-width: 100%;
+   width: 49%;
+   height: auto;
+}
+
+.info h1, .blog h1{
+   font-size: 30px;
+   text-transform: uppercase;
+   color: rgb(220, 0, 0);
+   padding: 30px 0;
+}
+
+.info h4, .blog h4{
+   font-size: 18px;
+   color: rgb(119, 119, 119);
+   padding-bottom: 30px;
+}
+
+.info p, .blog p{
+   font-family: 'Lato', sans-serif;
+   font-style: normal;
+   font-size: 18px; 
+   text-align: left;
+   line-height: normal;
+   color: rgb(119, 119, 119);
+}
+
+.info p{
+   padding: 20px 0;
+   width: 90%;
+}
+
+.info{
+   float: right;
+   width: 49%; 
+}
+
+/*remove white space between <input> elemets*/
+.size, .btn{
+   display: flex;
+   flex-direction: row;
+}
+
+.size{
+   margin-top: 30px;
+}
+
+.size input[type="radio"] {
+  display:none;
+}
+
+.choose{
+   background: gray;
+}
+
+.size label{
+   width: 70px;
+   border: 1px solid black;
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   font-weight: 800;
+   margin-right: 30px;
+   cursor:pointer;
+}
+
+.btn button, .blog button, .subscribe button{
+   font-family: 'Lato', sans-serif;
+   font-weight: 800;
+   color: black;
+   border: 1px solid black;
+   width: 170px;
+   margin: 30px 30px 0 0;
+}
+
+/*-------------------from the blog----------------------*/
+
+.blog ul{
+   margin: 60px 0 60px 0;
+   width: 100%;
+}
+
+.blog img{
+   max-width: 100%;
+   height: auto;
+}
+
+.blog ul li{
+   width: 49%;
+   float: left;
+}
+
+.blog ul:after{
+   content:"";
+   display: block;
+   clear: both;
+}
+
+.blog ul li:first-child{
+   margin-right: 2%;
+}
+
+.blog p{
+   margin: 30px 0 30px 0;
+}
+
+/*----------------------subscribe-------------------*/
+
+.subscribe {
+   position: relative;
+}
+
+.subscribe img{
+   max-width: 100%;
+   height: auto;
+}
+
+.form{
+   width: 1170px;
+   margin: 0 auto;
+   position: absolute;
+   top:0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   /*border: 1px solid black;*/
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.form p{
+   font-family: 'Lato', sans-serif;
+   text-transform: uppercase;
+   color: white;
+   font-size: 17px;
+   word-spacing: 2.5px;
+   text-align: left;
+   font-style: normal;
+   margin-bottom: 30px;
+}
+
+.form button{
+   background: white;
+   width: 270px;
+   margin: 0 0 0 130px;
+   vertical-align: text-bottom;
+}
+
+.form input{
+   width: 770px;
+   height: 55px;
+   background: transparent;
+   outline:none;
+   border: 1px solid white;
+   padding-left: 80px;
+   color: white;
+   background-image: url('../images/email.png');
+   background-repeat: no-repeat;
+   background-position: left center;
+   background-position-x: 30px;
+   vertical-align: text-bottom;
+}
+
+.form input::placeholder{
+   font-family: 'Lato', sans-serif;
+   text-transform: uppercase;
+   font-size: 13px;
+   color: white;
+}
+
+/*--------------------------footer--------------------*/
+
+p.footer{
+   font-family: 'Lato', sans-serif;
+   font-size: 18px;
+   font-style: normal;
+   color: rgb(154, 154, 154);
+   height: 160px;
+   line-height: 160px;
+   text-align: center;
+}
+
+.footer img{
+   vertical-align: text-bottom;
+}
+
+/*---------------------media queries-------------------*/
+
+@media screen and (max-width: 1230px){
+
+   header{
+      width: 80%;
+      margin: 0 10%;
+      margin-top: 30px; 
+   }
+
+   nav ul li { 
+      margin-left: 55px;
+   }
+
+   .bannertext{
+      width: 100%;
+   }
+
+   .bannertext p{
+      font-size: 22px;
+   }
+   
+   .bannertext h1{
+      width: 100%;
+      font-size: 52px;
+      margin: 20px 0;
+   }
+   
+   p.par{
+      font-size: 22px;
+   }
+
+   button{
+      width: 175px;
+      height: 45px;
+      font-size: 16px;
+   }
+
+   .wrapp{
+      width: 80%;
+      margin: 0 10%;
+      /*border: 1px solid black;*/
+   }
+
+   .info h1, .blog h1{
+      font-size: 22px;
+      padding: 20px 0;
+   }
+   
+   .info h4, .blog h4{
+      font-size: 12px;
+      color: rgb(119, 119, 119);
+      padding-bottom: 10px;
+   }
+   
+   .info p, .blog p{
+      font-size: 14px; 
+   }
+   
+   .size label{
+      width: 60px;
+      height: 40px;
+      line-height: 40px;
+      margin-right: 20px;
+   }
+
+   .btn button, .blog button, .subscribe button{
+      width: 140px;
+      margin: 20px 20px 0 0;
+   }
+
+   .form{
+      width: 80%;
+      margin: 0 10%;
+   }
+
+   .form p{
+      font-size: 14px;
+      word-spacing: 1.5px;
+      margin-bottom: 15px;
+   }
+   
+   .form button{
+      width: 20%;
+      margin: 0 0 0 10%;
+   }
+   
+   .form input{
+      width: 70%;
+      height: 45px;
+   }
+   
+   .form input::placeholder{
+      font-size: 11px;
+   }
+
+   p.footer{
+      height: 130px;
+      line-height: 130px;
+   }
+}
+
+@media screen and (max-width: 1100px){
+
+   .line{
+      width: 100px;
+   }
+   
+   .linetext{
+      height: 70px;
+      line-height: 70px;
+      font-size: 30px; 
+   }
+
+   .banner{
+      margin-bottom: 40px;
+   }
+
+   .collections ul{
+      margin-top: 40px;
+   }
+
+   ul.sale{
+      margin: 30px 0 80px 0;
+   }
+
+   .trendingitems{
+      margin: 60px 0 80px 0;
+   }
+
+   p.footer{
+      height: 100px;
+      line-height: 100px;
+   }
+
+   nav ul li { 
+      margin-left: 40px;
+   }
+
+   nav ul li a{
+      font-size: 16px; 
+   }
+
+   .bannertext p{
+      font-size: 18px;
+   }
+   
+   .bannertext h1{
+      font-size: 46px;
+
+   }
+   
+   p.par{
+      font-size: 18px;
+   }
+
+   .centered, .sale .centered{
+      font-size: 35px;
+   }
+
+
+   .sale .centered:after{
+      width: 160px;
+      margin-top: 10px;
+   }
+   
+   .sale .centered:before{
+      width: 160px;
+
+      margin-bottom: 10px;
+   }
+
+   .size{
+      margin-top: 15px;
+   } 
+}
+
+@media screen and (max-width: 960px){
+
+   nav ul li { 
+      margin-left: 30px;
+   }
+
+   .bannertext p{
+      font-size: 14px;
+   }
+   
+   .bannertext h1{
+      font-size: 36px;
+      margin: 15px 0;
+   }
+   
+   p.par{
+      font-size: 14px;
+   }
+
+   button{
+      width: 155px;
+      height: 40px;
+      margin-top: 20px;
+      font-size: 14px;
+   }
+
+   .line{
+      width: 80px;
+   }
+   
+   .linetext{
+      height: 60px;
+      line-height: 60px;
+      font-size: 25px; 
+   }
+
+   .size label{
+      width: 50px;
+      height: 30px;
+      line-height: 30px;
+      font-weight: 800;
+      margin-right: 10px;
+   }
+
+   .btn button, .blog button, .subscribe button{
+      width: 110px;
+      margin: 10px 10px 0 0;
+   }
+
+   .info h1{
+      padding: 10px 0;
+  }
+
+   .info p{
+      padding: 10px 0;
+   }
+
+   .trendingitems{
+      margin: 40px 0 60px 0;
+   }
+
+   ul.sale {
+      margin: 20px 0 50px 0;
+  }
+
+  .banner {
+      margin-bottom: 20px;
+
+   }
+
+   .form p{
+      font-size: 12px;
+      word-spacing: normal;
+      margin-bottom: 5px;
+   }
+
+   .form button{
+      width: 20%;
+      margin: 0 0 0 10%;
+   }
+
+   .form input{
+      width: 70%;
+      height: 40px;
+   }
+
+   .form input::placeholder{
+      font-size: 11px;
+   }
+
+   p.footer{
+      height: 100px;
+      line-height: 100px;
+   }
+}
+
+@media screen and (max-width: 780px){
+
+   ul.sale {
+      margin: 10px 0 30px 0;
+  }
+  
+   .centered, .sale .centered{
+      font-size: 30px;
+   }
+
+   .sale .centered:after{
+      margin-top: 5px;
+   }
+   
+   .sale .centered:before{
+      margin-bottom: 5px;
+   }
+
+   nav{
+      width: 70%;
+      margin-left: 10%;
+   }
+
+   nav ul{
+      width: 100%;
+   }
+
+   nav ul li{
+      margin: 0;
+      width: 15%;
+      text-align: center;
+   }
+
+   header img{
+      width: 20% ;
+   }
+
+   .bannertext{
+      margin-top: 20px;
+   }
+   
+   .bannertext p{
+      font-size: 12px;
+      letter-spacing: 10px;
+   }
+   
+   .bannertext h1{
+      font-size: 30px;
+      margin: 10px 0;
+   }
+   
+   p.par{
+      font-size: 12px;
+      letter-spacing: normal;
+   }
+
+   button{
+      width: 155px;
+      height: 40px;
+      margin-top: 20px;
+      font-size: 14px;
+   }
+
+   .line{
+      width: 70px;
+   }
+   
+   .linetext{
+      height: 40px;
+      line-height: 40px;
+      font-size: 20px; 
+   }
+
+   .trendingitems{
+      margin: 40px 0 40px 0;
+      width: 100%;
+   }
+   
+   .trendingitems img{
+      display: block;
+      margin: 0 auto;
+   }
+   
+   .info h1, .blog h1{
+      font-size: 20px;
+      padding: 20px 0;
+      text-align: center;
+   }
+   
+   .info h4, .blog h4{
+      font-size: 12px;
+      padding-bottom: 10px;
+      text-align: center;
+   }
+   
+   .info p, .blog p{
+      font-size: 14px; 
+      text-align: center;
+   }
+   
+   .info p{
+      padding: 10px 0;
+      width: 100%;
+   }
+   
+   .info{
+      float: none;
+      width: 80%;
+      margin: 0 10%; 
+   }
+
+   .btn, .size {
+      justify-content: center;
+   }
+
+   .blog ul{
+      margin: 40px 0 40px 0;
+   }
+
+   .blog{
+      text-align: center;
+   }
+
+   .blog img{
+      max-width: 100%;
+      height: auto;
+   }
+   
+   .blog ul li{
+      width: 100%;
+      float: none;
+   }
+
+   .blog ul li:first-child{
+      margin-bottom: 20px;
+   }
+   
+   .blog p{
+      margin: 10px 0 10px 0;
+   }
+
+   p.footer{
+      height: 80px;
+      line-height: 80px;
+   }
+
+}
+
+@media screen and (max-width: 620px){
+
+   .bannertext p{
+      font-size: 10px;
+   }
+   
+   .bannertext h1{
+      font-size: 25px;
+      margin: 0px 0;
+   }
+   
+   p.par{
+      font-size: 10px;
+   }
+
+   button{
+      width: 130px;
+      height: 30px;
+      margin-top: 10px;
+      font-size: 12px;
+   }
+
+   .form p{
+      font-size: 10px;
+      margin-bottom: 5px;
+   }
+
+   .form input{
+      height: 30px;
+   }
+
+   .form input::placeholder{
+      font-size: 9px;
+   }
+
+   .centered, .sale .centered {
+      font-size: 18px;
+  }
+
+  .sale .centered:after {
+      margin-top: 0px;
+   }
+
+   .sale .centered:before {
+      margin-bottom: 0px;
+   }
+
+   #burger-nav{
+      width: 10%;
+      margin-left: 90%;
+		height: 35px;
+      background-image: url(../images/burger.png);
+      background-repeat: no-repeat;
+      background-position: center; 
+      background-size: 20px 20px; 
+      cursor: pointer; 
+      /*border: 1px solid red;*/
+   }
+   
+   header nav ul{ 
+		height: 0;
+		overflow: hidden;
+   }
+
+   header nav ul.open{
+		height: auto;
+   }
+   
+   header nav li{
+		width: 100%;
+      margin: 0;
+      border: 1px solid rgb(220, 220, 221);
+      text-align: right;
+      background: rgb(134, 135, 141);
+      position: relative;
+      z-index: 2;
+	}
+
+   header nav li a{
+      color: rgb(220, 220, 221);
+      padding-right: 10px; 
+   }
+
+}
+
+@media screen and (max-width: 460px){
+
+   .bannertext p{
+      font-size: 9px;
+      letter-spacing: 5px;
+   }
+   
+   .bannertext h1{
+      font-size: 18px;
+   }
+   
+   p.par{
+      font-size: 9px;
+      letter-spacing: 0px;
+   }
+
+   button{
+      width: 100px;
+      font-size: 10px;
+   }
+
+   .form p{
+      font-size: 8px;
+      margin-bottom: 0px;
+   }
+
+   .centered, .sale .centered {
+      font-size: 16px;
+  }
+
+   p.footer{
+      height: 60px;
+      line-height: 60px;
+   }
+}
+
+@media screen and (max-width: 360px){
+
+   header {
+      margin-top: 20px;
+   }
+
+   .bannertext p{
+      font-size: 8px;
+      letter-spacing: 2px;
+   }
+   
+   .bannertext h1{
+      font-size: 14px;
+   }
+   
+   p.par{
+      font-size: 8px;
+      letter-spacing: 0px;
+   }
+
+   button{
+      width: 80px;
+      height: 20px;
+      font-size: 8px;
+   }
+
+   .form p{
+      font-size: 7px;
+      margin-bottom: 0px;
+   }
+
+  .form input{
+   height: 20px;
+   }
+
+   .form input::placeholder{
+   font-size: 8px;
+   }
+
+   .centered, .sale .centered {
+      font-size: 14px;
+  }
+
+   p.footer{
+      height: 50px;
+      line-height: 50px;
+   }
+}

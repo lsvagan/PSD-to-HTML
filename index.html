@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Brandly</title>
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:800i" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+   <div class="banner">
+      <img src="images/banner.png" id="banner" alt="banner">
+      <header>
+         <img src="images/logo.png" alt="logo">
+         <nav>
+            <div id="burger-nav"></div>
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Shop</a></li>
+               <li><a href="#">Brands</a></li>
+               <li><a href="#">Blog</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+            </nav>
+      </header>
+
+      <div class="bannertext">
+
+         <p>spring / summer collection</p>
+         <h1>up to 60% discount on new arrivals</h1>
+         <p class="par">trending new items from creators around the world</p>
+         <button>shop now</button>
+
+      </div>   
+
+   </div>
+
+   <!--Latest products-->
+
+   <section class="wrapp">
+      <div class="line"></div>
+      <p class="linetext">Latest Products</p>
+      <div class="line"></div>
+
+      <div class="collections">
+         <ul class="latestproduct">
+            <li>
+               <a href="#">
+                  <img src="images/men.png" alt="men" >
+                  <div class="hover1"></div>
+                  <div class="hover2"></div>
+                  <div class="centered">Men</div>
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <img class="center" src="images/woman.png" alt="woman" >
+                  <div class="hover1"></div>
+                  <div class="hover2"></div>
+                  <div class="centered">Woman</div>
+            </a>
+            </li>
+            <li>
+               <a href="#">
+                  <img src="images/watches.png" alt="watches" >
+                  <div class="hover1"></div>
+                  <div class="hover2"></div>
+                  <div class="centered">Watches</div>
+               </a>
+            </li>
+         </ul>
+         <ul class="sale">
+            <li>
+               <a href="#">
+                  <img src="images/sale.png" alt="sale">
+                  <div class="hover1"></div>
+                  <div class="centered">40% Off <br> New Autumn <br> Collection</div>
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <div class="hover1"></div>
+                  <img src="images/megasale.png" alt="megasale">
+                  <div class="centered">MEGA SALE <br> ON ITEMS FROM <br> SPIRIT COLLECTION</div>
+               </a>
+            </li>
+         </ul>
+      </div>
+   </section>
+
+   <!--Trending items-->
+
+   <section class="wrapp">
+      <div class="line"></div>
+      <p class="linetext">Trending Items</p>
+      <div class="line"></div>
+
+      <div class="trendingitems">
+
+         <img src="images/jacket.png" alt="jacket">
+
+         <div class="info">
+
+            <h1>nathan stewart jacket</h1>
+            <h4>Summer/Autmn Collection</h4>
+            <p>
+               Classic Nathan Stewart Jacket form his latest collection. This item is loved by many just because of it's simple style. Simple ines, lovely texture, it suits almost everybody it comes in six different colors, and all sizes.</p> 
+               <p> FASHION TIP: <br>
+               Whit this jacket, Nathan Stewar: sunglasses go hand in hand!</p>
+               
+               <div class="size">
+                  <label><input type="radio" name="size" />M</label>
+                  
+
+                  <label><input type="radio" name="size" />L</label>
+
+                  <label><input type="radio" name="size" />XL</label>
+
+                  <label><input type="radio" name="size" />XXL</label>
+               </div>
+
+               <div class="btn">
+                  <button>shop now</button>
+                  <button>size guide</button>
+               </div>
+
+         </div>
+             
+      </div>
+   </section>
+
+   <!--Form the blog-->
+
+   <section class="wrapp">
+      <div class="line"></div>
+      <p class="linetext">From The Blog</p>
+      <div class="line"></div>
+
+      <div class="blog">
+
+         <ul>
+            <li>
+               <img src="images/blog1.png" alt="blog">
+               <h1>german fashion wizards</h1>
+               <h4>By Janes Steed | Fashion</h4>
+               <p>This week we had the chance of interviewing two creative artist from Gemany. These guy are simply amazing at what they do with the European fashion scene and this year at Paris Fashion Week they introduce their new collection.</p>
+               <button>read more</button>
+            </li>
+
+            <li>
+               <img src="images/blog2.png" alt="blog">
+               <h1>anne stewart's sunglasses</h1>
+               <h4>By Marry Beard | Trending</h4>
+               <p>Just amazing! That is now i can describe this person. So creative, so inspiring. I was watching her crate in her small studio in London and i was amazed at how every little detail gets included in her creatons. Frim frame, to glass thickness she blew me away...</p>
+               <button>read more</button>
+            </li>
+         </ul>
+
+      </div>
+   </section>
+
+   <!--Subscribe-->
+
+   <section class="subscribe">
+
+      <img src="images/subscribe.png" alt="subscribe">
+      
+      <div class="form">
+
+         <div><!--for flexbox position-->
+            
+            <p for="email">subscribe to our newsletter to receive latest news and offers</p>
+        
+            <input type="text" name="email" placeholder="email address"><button>subscribe</button>
+      
+         </div>
+
+      </div>
+
+   </section>
+
+   <!--Footer-->
+   
+   <section class="wrapp">
+      <p class="footer">Made with
+         <img src="images/heart.png" alt="heart">
+         by WebDonut.net</p>
+   </section> 
+   
+   
+   <script src="main.js"></script>
+
+</body>
+</html>
